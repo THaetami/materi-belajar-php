@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.clear{
+  clear: both;
+}
+
+.navigasi {
+  width: 100%;
+  background-color: #241818;
+  position: fixed;
+}
+.navigasi li {
+  float: left;
+  list-style: none;
+  padding: 13px;
+}
+.navigasi li a:link {
+  color: rgb(155, 151, 151);
+  font: bolder 1em fantasy;
+  text-decoration: none;
+}
+.navigasi li a:hover {
+  color: purple;
+}
+.header {
+  margin-top: 20px;
+  font: bold 1.3em cursive;
+  text-align: center;
+  background: url('gambar/logo.png') round ;
+  color: white;
+  border: 5px dotted black;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px 10px black;
+  padding: 5px;
+}
+h5 {
+  background-color: aquamarine;
+}
+.lat ul {
+  list-style: none;
+}
+.lat li a {
+  display: block;
+  background-color: #198C13;
+  width: 20%;
+  padding: 3px;
+  color: aliceblue;
+  border: white 1px solid;
+}
+.lat1 table {
+  border-collapse:collapse;
+  border-spacing:0;
+  font-size: 14px;
+}
+.lat1 table th {
+  background-color: blue;
+  color: #fff;
+  border: 0.7px solid black;
+  padding: 10px;
+} 
+.lat1 table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.lat1 table tr:nth-child(even) {
+  background-color: #DFEBF8;;
+}
+
+.reset fieldset {
+  padding: 10px;
+}
+
+.reset input {
+  margin-bottom: 10px;
+}
+
+.reset label {
+  width: 150px;
+  float: left;    
+  margin-right: 10px;
+}
+
+
+
+
